@@ -1,4 +1,4 @@
-(ns boilerplate.scenes
+(ns boilerplate.components
   (:require [portfolio.replicant :refer-macros [defscene]]
             [portfolio.ui :as portfolio]
             [boilerplate.ui :as ui]))
@@ -8,7 +8,7 @@
 
 (defn main []
   (portfolio/start!
-    {:config
-     {:css-paths ["/styles.css"]
-      :viewport/defaults
-      {:background/background-color "#fff"}}}))
+   {:config
+    {:css-paths ["/styles.css"]
+     :viewport/defaults
+     {:background/background-color "#fff"}}}))

@@ -8,5 +8,5 @@
 
   :portfolio
   {:target :browser
-   :modules {:main {:init-fn boilerplate.scenes/main}}
+   :modules {:main {:init-fn boilerplate.components/main}}
    :dev {:output-dir "resources/public/portfolio"}}}}
