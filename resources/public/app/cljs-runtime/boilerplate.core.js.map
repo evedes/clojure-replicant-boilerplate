@@ -1,1 +1,0 @@
-{"version":3,"sources":["boilerplate/core.cljs"],"mappings":";AAEA,wBAAA,xBAAMA;AAAN,AAAA,0FAAA,mDAAA","names":["boilerplate.core/main"],"sourcesContent":["(ns boilerplate.core)\n\n(defn main []\n  [:div \"Hello World\"]\n  )\n"]}

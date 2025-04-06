@@ -1,1 +1,8 @@
 /* Global CSS Styling */
+
+.button-style {
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
